@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+:root {
+    --slate-950: #020617;
+    --slate-900: #0f172a;
+    --slate-800: #1e293b;
+    --slate-700: #334155;
+    --slate-200: #e2e8f0;
+    --sky-500: #0ea5e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.header {
+    background-color: var(--slate-950);
+    color: var(--sky-500);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Sixtyfour;
+    font-size: 40px;
+    height: 15%;
+}
+
+.game {
+    background-color: var(--slate-700);
+    display: flex;
+    flex-direction: column;
+    color: var(--slate-200);
+    height: 85%;
+}
+
+.top-text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.top-text h2 {
+    font-size: 40px;
+}
+
+.top-text p {
+    font-size: 20px;
+}
+
+.display {
+    display: flex;
+    margin: 40px 0px;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.display h3 {
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+
+.display p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.choices button {
+    font-size: 90px;
+    background-color: var(--slate-900);
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    transition-duration: 300ms;
+}
+
+.choices button:hover {
+    background-color: var(--slate-800);
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
